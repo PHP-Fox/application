@@ -21,4 +21,14 @@ composer run serve
 
 ## Using the CLI
 
-By default, 
+By default, there is only one command availabl: `help` which will list out all commands that you create.
+
+The CLI is built using [minicli](https://docs.minicli.dev/en/latest/), and all commands are stored in: `src/App/Console/Commands/`.
+
+Please read the docs for minicli to understand how this works.
+
+To run a command:
+
+```bash
+php fox [command-name]
+```
