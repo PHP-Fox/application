@@ -11,7 +11,7 @@ use Minicli\App;
 
 $app = new App(
     config: [
-        'app_path' => __DIR__ . '/src/Console/Commands',
+        'app_path' => __DIR__ . '/src/App/Console/Commands',
         'debug' => false,
     ]
 );

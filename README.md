@@ -18,3 +18,7 @@ Quickly serve your application using PHPs built in server:
 ```bash
 composer run serve
 ```
+
+## Using the CLI
+
+By default, 
