@@ -1,0 +1,234 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bf6717e82f049d5b123482c98c2b2ddc",
+    "packages": [
+        {
+            "name": "juststeveking/config",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JustSteveKing/config.git",
+                "reference": "34a73b3777d6e5bb03ad1c1f19b90f93c2001a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JustSteveKing/config/zipball/34a73b3777d6e5bb03ad1c1f19b90f93c2001a38",
+                "reference": "34a73b3777d6e5bb03ad1c1f19b90f93c2001a38",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.25",
+                "phpunit/phpunit": "^9.1",
+                "squizlabs/php_codesniffer": "^3.5",
+                "thecodingmachine/phpstan-safe-rule": "^1.0",
+                "vimeo/psalm": "^3.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JustSteveKing\\Config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve McDougall",
+                    "email": "juststevemcd@gmail.com",
+                    "homepage": "https://www.juststeveking.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple dot notation connfiguration package",
+            "support": {
+                "issues": "https://github.com/JustSteveKing/config/issues",
+                "source": "https://github.com/JustSteveKing/config/tree/v2.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JustSteveKing",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-18T21:57:11+00:00"
+        },
+        {
+            "name": "minicli/minicli",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/minicli/minicli.git",
+                "reference": "b359a740b7dc258acaf52d4373cac5f545705b33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/minicli/minicli/zipball/b359a740b7dc258acaf52d4373cac5f545705b33",
+                "reference": "b359a740b7dc258acaf52d4373cac5f545705b33",
+                "shasum": ""
+            },
+            "require": {
+                "ext-readline": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "pestphp/pest": "^1.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minicli\\": "src/",
+                    "Assets\\": "tests/Assets"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Experimental micro CLI framework for PHP",
+            "homepage": "https://github.com/minicli/minicli",
+            "keywords": [
+                "cli",
+                "command-line"
+            ],
+            "support": {
+                "issues": "https://github.com/minicli/minicli/issues",
+                "source": "https://github.com/minicli/minicli/tree/2.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/erikaheidi",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-05-08T15:36:01+00:00"
+        },
+        {
+            "name": "phpfox/container",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-Fox/container.git",
+                "reference": "3b229a22371e2b5aa08140aa1c55ca64a98373bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-Fox/container/zipball/3b229a22371e2b5aa08140aa1c55ca64a98373bc",
+                "reference": "3b229a22371e2b5aa08140aa1c55ca64a98373bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.4",
+                "vimeo/psalm": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPFox\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve McDougall",
+                    "email": "juststevemcd@gmail.com",
+                    "homepage": "https://www.juststeveking.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple DI container for the PHPFox framework",
+            "support": {
+                "issues": "https://github.com/PHP-Fox/container/issues",
+                "source": "https://github.com/PHP-Fox/container/tree/0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JustSteveKing",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-06-17T08:11:55+00:00"
+        },
+        {
+            "name": "phpfox/framework",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-Fox/framework.git",
+                "reference": "31553930b7a6ef1d73e362abd9b5425b5c70db2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-Fox/framework/zipball/31553930b7a6ef1d73e362abd9b5425b5c70db2a",
+                "reference": "31553930b7a6ef1d73e362abd9b5425b5c70db2a",
+                "shasum": ""
+            },
+            "require": {
+                "juststeveking/config": "^2.0",
+                "minicli/minicli": "^2.2",
+                "php": "^8.0",
+                "phpfox/container": "^0.1.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.4",
+                "spatie/ray": "^1.26",
+                "vimeo/psalm": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPFox\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve McDougall",
+                    "email": "juststevemcd@gmail.com",
+                    "homepage": "https://www.juststeveking.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple PHP micro-framework",
+            "support": {
+                "issues": "https://github.com/PHP-Fox/framework/issues",
+                "source": "https://github.com/PHP-Fox/framework/tree/0.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JustSteveKing",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-06-17T08:16:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
